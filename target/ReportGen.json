@@ -1,0 +1,103 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4178126100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To Validate the login page with valid credentails",
+        "description": "",
+        "id": "user-must-validate-the-facebook-login-portal;to-validate-the-login-page-with-valid-credentails;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 54200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Afterscenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To login the facebook url",
+            "match": {
+              "location": "StepDefinition.to_login_the_facebook_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 157398400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To validate the \"Jasan\" and \"12345\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Jasan\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition.to_validate_the_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 62514700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To login the webpage",
+            "match": {
+              "location": "StepDefinition.to_login_the_webpage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11330842900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To validate the webpage with report",
+            "match": {
+              "location": "StepDefinition.to_validate_the_webpage_with_report()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User must validate the Facebook login portal",
+    "description": "",
+    "id": "user-must-validate-the-facebook-login-portal",
+    "keyword": "Feature",
+    "uri": "C:/Users/Jasan cross/eclipse-workspace/CucumberReport/src/test/resources/facebook.feature",
+    "tags": []
+  }
+]
